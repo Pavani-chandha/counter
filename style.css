@@ -1,0 +1,34 @@
+ body{
+    margin-top: 150px;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.0FTrENRuvLi_NXzvbAmvoAHaEJ?pid=Api&P=0&h=180);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+ }
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+    color:rgb(167, 88, 154);
+}
+#btnContainer{
+    text-align: center;
+}
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: rgb(245, 244, 247);
+    background-color: rgb(148, 91, 202);
+    border-radius: 15px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+    
+
+}
+.button:hover{
+    background-color: rgb(187, 127, 198);
+    box-shadow: 50px 50px 50px;
+    box-shadow: color(srgb rgb(186, 41, 214) rgb(186, 41, 214) rgb(186, 41, 214));
+}
